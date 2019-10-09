@@ -10,7 +10,7 @@
 namespace Tarea5.UI.Registros {
     
     
-    public partial class Evaluaciones {
+    public partial class rEvaluaciones {
         
         /// <summary>
         /// ScriptManager1 control.

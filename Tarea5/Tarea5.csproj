@@ -125,9 +125,9 @@
     <Content Include="Scripts\umd\popper.min.js" />
     <Content Include="UI\Consultas\cCategorias.aspx" />
     <Content Include="UI\Consultas\cEstudiante.aspx" />
-    <Content Include="UI\Registros\rEvaluaciones.aspx" />
     <Content Include="UI\Registros\rCategorias.aspx" />
     <Content Include="UI\Registros\rEstudiante.aspx" />
+    <Content Include="UI\Registros\rEvaluaciones.aspx" />
     <Content Include="Web.config" />
     <Content Include="Scripts\umd\popper.min.js.map" />
     <Content Include="Scripts\umd\popper.js.map" />
@@ -172,13 +172,6 @@
     <Compile Include="UI\Consultas\cEstudiante.aspx.designer.cs">
       <DependentUpon>cEstudiante.aspx</DependentUpon>
     </Compile>
-    <Compile Include="UI\Registros\rEvaluaciones.aspx.cs">
-      <DependentUpon>rEvaluaciones.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="UI\Registros\rEvaluaciones.aspx.designer.cs">
-      <DependentUpon>rEvaluaciones.aspx</DependentUpon>
-    </Compile>
     <Compile Include="UI\Registros\rCategorias.aspx.cs">
       <DependentUpon>rCategorias.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -192,6 +185,13 @@
     </Compile>
     <Compile Include="UI\Registros\rEstudiante.aspx.designer.cs">
       <DependentUpon>rEstudiante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Registros\rEvaluaciones.aspx.cs">
+      <DependentUpon>rEvaluaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Registros\rEvaluaciones.aspx.designer.cs">
+      <DependentUpon>rEvaluaciones.aspx</DependentUpon>
     </Compile>
     <Compile Include="Utilitarios\Utils.cs" />
   </ItemGroup>

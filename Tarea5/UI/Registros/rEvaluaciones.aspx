@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="rEvaluaciones.aspx.cs" Inherits="Tarea5.UI.Registros.Evaluaciones" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="rEvaluaciones.aspx.cs" Inherits="Tarea5.UI.Registros.rEvaluaciones" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -72,7 +72,7 @@
                                         <div class="form-row justify-content-center">
                                             <asp:GridView ID="detalleGridView" runat="server" class="table table-condensed table-bordered table-responsive"
                                                  CellPadding="8" AllowPaging="True" PageSize="7" ForeColor="Black" GridLines="None"
-                                                BackColor="White" OnRowCommand="detalleGridView_RowCommand" OnPageIndexChanging="detalleGridView_PageIndexChanging">
+                                                BackColor="White" OnRowCommand="detalleGridView_RowCommand" OnPageIndexChanging="detalleGridView_PageIndexChanging" OnRowDeleting="detalleGridView_RowDeleting">
                                                 <AlternatingRowStyle BackColor="White" />
                                                 <Columns>
                                                     <asp:TemplateField ShowHeader="False">
