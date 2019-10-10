@@ -38,9 +38,9 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Registros </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="/Registros/rCategorias.aspx">Catgorias</a>
-                                <a class="dropdown-item" href="/Registros/rEstudiantes.aspx">Estudiantes</a>
-                                <a class="dropdown-item" href="/Registros/rEvaluaciones.aspx">Evaluaciones</a>
+                                <a class="dropdown-item" href="/UI/Registros/rCategorias.aspx">Catgorias</a>
+                                <a class="dropdown-item" href="/UI/Registros/rEstudiantes.aspx">Estudiantes</a>
+                                <a class="dropdown-item" href="/UI/Registros/rEvaluaciones.aspx">Evaluaciones</a>
                             </div>
                         </li>
 
